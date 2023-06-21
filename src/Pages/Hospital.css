@@ -1,0 +1,95 @@
+.Hospital{
+    background-color: #b3d0ff;
+    background-color: #0c3069;
+    background-image: linear-gradient(223deg, rgba(0, 13, 48, 0.9),rgba(78, 0, 0, 0.8))
+    ,url(../../public/images/SecretariaSalud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.header__hospital{
+    display: flex;
+    padding: .5em 1em;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 95%;
+    margin: auto;
+}
+
+.header__hospital > img{
+    width: 75px;
+    background-color: white;
+    padding: .2em;
+    border-radius: 50%;
+}
+
+.Hospital > p{
+    color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.Hospital > p > span{
+    text-transform: uppercase;
+}
+
+.form{
+    display: block;
+    width: 95%;
+    margin: auto;
+    height: 4500px;
+    border-radius: 20px;
+    
+}
+
+.nav-hospitales{
+}
+
+.menu__Hospital{
+    background-color: transparent;
+}
+
+.menu__Hospital > span{
+    font-size: 2.5em;
+    color: white;
+}
+
+.Form-NoDisp{
+    background-color: rgb(0, 34, 128);
+    background-image: linear-gradient(223deg, rgba(0, 13, 48, 0.9),rgba(78, 0, 0, 0.8))
+    ,url(../../public/images/SecretariaSalud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.text__Form-NoDisp{
+    font-size: 1.5em;
+    color: white;
+}
+
+.btn__Form-NoDisp{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+}
+
+.text-btn__Form-NoDisp{
+    display: block;
+    color: white;
+    font-size: 1.5em;
+    padding: .5em 3em;
+
+}

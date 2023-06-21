@@ -1,0 +1,82 @@
+.Hospitales{
+    background-color: rgb(0, 34, 128);
+    background-image: linear-gradient(223deg, rgba(0, 13, 48, 0.9),rgba(78, 0, 0, 0.8))
+    ,url(../../public/images/SecretariaSalud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo__Hospitales{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+}
+
+.titulo__Hospitales > h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.titulo__Hospitales > img{
+    height: 75px;
+    width: 75px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 50%;
+    padding: .2em;
+}
+
+.Hospitales > p{
+    text-align: center;
+    font-size: .8em;
+    color: rgb(207, 207, 207);
+    margin-bottom: 20px;
+}
+
+.lista__Hospitales{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 3em 0 0;
+    padding-bottom: 3em;
+}
+
+.lista__Hospitales > p{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* buttons HOME */
+
+.Home{
+    padding: 1em 0;
+}
+
+.ul__Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7em;
+}
+
+.li__Home{
+    width: 90%;
+}
+
+.btn-hospitales__Home{
+    width: 100%;
+    padding: .8em;
+    background-color: rgb(255, 255, 255, .3);
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    border-radius: 10px;
+}
+
+.text-btn__Home{
+    color: white;
+    font-size: 1.2em;
+}
