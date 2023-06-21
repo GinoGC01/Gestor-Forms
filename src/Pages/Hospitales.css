@@ -70,13 +70,15 @@
 
 .btn-hospitales__Home{
     width: 100%;
-    padding: .8em;
     background-color: rgb(255, 255, 255, .3);
     border: 1px solid rgba(255, 255, 255, 0.452);
     border-radius: 10px;
 }
 
 .text-btn__Home{
+    display: block;
     color: white;
     font-size: 1.2em;
+    padding: .8em;
+    width: 100%;
 }

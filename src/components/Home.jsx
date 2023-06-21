@@ -10,7 +10,7 @@ export default function Home({hospitales, selected}) {
                 return(
                 <li className='li__Home' key={hospital.id}>
                     <button className='btn-hospitales__Home' id={hospital.id} onClick={()=>{selected(hospital.id, hospital.url)}}>
-                        <Link className='text-btn__Home' to={`/${hospital.id}`} >{`Hospital: ${hospital.name}`}</Link>
+                        <Link className='text-btn__Home' to={`/${hospital.id}`} >{`${hospital.nameVisible}`}</Link>
                     </button>
                 </li>
                 )

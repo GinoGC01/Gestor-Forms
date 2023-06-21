@@ -2,46 +2,67 @@
     {
         "id":"Caporaletti",
         "name": "Cacho Caporaletti",
+        "nameVisible":"Hospital: Cacho Caporaletti",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSd8x8uvR7l8hyREipexn7R8DG75_jYfAU4T-KwKMj6-5YT5sg/viewform?usp=sf_link"
     },
     {
         "id":"Angio",
         "name": "Domingo Angio",
+        "nameVisible":"Hospital: Domingo Angio",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdTSr8D0wzMEnehkuyGv4YDf-aWlpTBulVzpEfDRygxzVGK_g/viewform?usp=sf_link"
     },
     {
         "id":"Buljan",
         "name": "Miguel Angel Buljan",
+        "nameVisible": "Hospital: Miguel Angel Buljan",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSf7SgL6L4qDGp_MLA8UJTUGGupoE6M-CFYH8lUkjtvaS7P_Jw/viewform?usp=sf_link"
     },
     {
         "id":"Nelly",
         "name": "Nelly Quiroga",
+        "nameVisible": "Hospital: Nelly Quiroga",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdOxi27n6uvFeBB1S24pkxlcSakOKKhc2tHXwtPpbX9I8rEEg/viewform?usp=sf_link"
     },
     {
         "id":"Odontologico",
         "name": "Odontologico",
+        "nameVisible": "Hospital: Odontologico",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdOxi27n6uvFeBB1S24pkxlcSakOKKhc2tHXwtPpbX9I8rEEg/viewform?usp=sf_link"
     },
     {
         "id":"Oftalmologico",
         "name": "Oftalmologico",
+        "nameVisible": "Hospital: Oftalmologico",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdSn-NF6sfADfmxl_nV-YS1AeDWhRvfY1GJS_gds0_V4vvOOg/viewform?usp=sf_link"
     },
     {
         "id":"Loiacono",
         "name": "Loiacono",
+        "nameVisible": "Hospital: Loiacono",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdqppSvrHmpP8azr9A9U6_BdxuXVDzOQ_98OEdf2ESM_QyFYQ/viewform?usp=sf_link"
     },
     {
         "id":"Oncologico",
         "name": "Oncologico",
+        "nameVisible": "Hospital: Oncologico",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdfNNrq9yCYaFii_qQq2nW-P4XmJXWLZN476dgjWv65A9gQyg/viewform?usp=sf_link"
     },
     {
         "id":"Prueba",
         "name": "Prueba",
+        "nameVisible": "Prueba",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSdI5mK8EwNvFOcc4ePgY5MZhUU6tUMPK7vEd0y45i8PYOv3gQ/viewform?usp=sf_link"
+    },
+    {
+        "id":"Encuestas-Sanitarias",
+        "name": "Encuestas Sanitarias",
+        "nameVisible": "Encuestas Sanitarias",
+        "url":"https://docs.google.com/forms/d/e/1FAIpQLScGpQaDLtz30NgeM_iEg1MICH8cReG_hCCD4wPycO7L7At_uw/viewform?usp=sf_link"
+    },
+    {
+        "id":"Encuesta-Secretaria de salud",
+        "name": "Encuesta - Secretaria de salud - José C. Paz",
+        "nameVisible": "Encuesta - Secretaria de salud",
+        "url":"https://docs.google.com/forms/d/e/1FAIpQLSfFtGePZ09c-vw7to7tnEPsOF4z09DCt36A2-F2Nwi0A8W5sA/viewform?usp=sf_link"
     }
 ]
