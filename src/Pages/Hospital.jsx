@@ -11,7 +11,6 @@ export default function Hospital({isSelected, urlHospital, hospitales, selected}
 
   const [hospitalesNav, setHospitalesNav] = useState(false)
 
-
   function handleNav(){
     setHospitalesNav(!hospitalesNav)
   }

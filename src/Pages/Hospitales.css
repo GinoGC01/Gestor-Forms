@@ -61,11 +61,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .7em;
+    gap: 1em;
 }
 
 .li__Home{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
     width: 90%;
+    gap: .7em;
+}
+
+.li__Home > .share__Home{
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    font-size: 1.1em;
 }
 
 .btn-hospitales__Home{
