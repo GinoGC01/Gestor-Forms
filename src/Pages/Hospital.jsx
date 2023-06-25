@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
+import { HospitalesContext } from '../Context/HospitalesContext'
 import { Link, useParams } from 'react-router-dom'
 import NavHospitales from '../components/NavHospitales'
 import './Hospital.css'
 
-export default function Hospital({isSelected, urlHospital, hospitales, selected}) {
+export default function Hospital() {
 
   // hook que retorna los parámetros del url de react-router-dom
   // devuelve un string
@@ -14,6 +15,9 @@ export default function Hospital({isSelected, urlHospital, hospitales, selected}
   function handleNav(){
     setHospitalesNav(!hospitalesNav)
   }
+
+  const {Selected, urlHospital, isSelected, hospitales} = useContext(HospitalesContext)
+
 
    if(id === isSelected){
     return(
@@ -26,7 +30,7 @@ export default function Hospital({isSelected, urlHospital, hospitales, selected}
             <span className="material-symbols-outlined">menu</span>}
           </button>
       </header>
-      <NavHospitales hospitalesNav={hospitalesNav} hospitales={hospitales} selected={selected} />
+      <NavHospitales hospitalesNav={hospitalesNav} hospitales={hospitales} selected={Selected} />
       <p>Formulario Seleccionado: <span>{isSelected}</span></p>
       <iframe src={urlHospital} className='form'>Cargando…</iframe>
     </section>)

@@ -29,7 +29,6 @@
 }
 
 .Hospital > p{
-    color: rgb(43, 43, 43);
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     text-align: center;
@@ -89,4 +88,16 @@
     font-size: 1.5em;
     padding: .5em 3em;
 
+}
+
+@media screen and (min-width:1100px){
+
+    .Hospital > p{
+        font-size: 1.8em;
+    }
+    
+    .form{
+        width: 55%;
+
+    }
 }

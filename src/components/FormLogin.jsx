@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import BtnShowPass from './ButtonSwPass'
+import {UserDataContext} from '../Context/UserDataContext'
 import '../Pages/Login.css'
 
-export default function FormLogin({loginData, userData, passData, passVisible, passVisibleF}) {
+export default function FormLogin() {
+
+  const [passVisible, setPassVisible] = useState(false)
+
+  function handlePassVisible(e){
+    e.preventDefault()
+    setPassVisible(!passVisible)
+  }
+
+  const {passData, userData, hlandleLogin} = useContext(UserDataContext)
 
   return (
     <section className='Login-form'>
@@ -18,9 +28,9 @@ export default function FormLogin({loginData, userData, passData, passVisible, p
               <span className="material-symbols-outlined lock">lock</span>
               </label>
               <input type={passVisible ? "text" : "password"} name="password" id="password" onChange={passData} />
-              <BtnShowPass passVisible={passVisible} passVisibleF={passVisibleF}/>
+              <BtnShowPass passVisible={passVisible} passVisibleF={handlePassVisible}/>
           </div>
-          <button type='submit' onClick={loginData} className='Login-submit'>Entrar</button>
+          <button type='submit' onClick={hlandleLogin} className='Login-submit'>Entrar</button>
       </form>
     </section>
 

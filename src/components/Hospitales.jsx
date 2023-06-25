@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../Components/Home'
+import FormList from './FormList'
 import './Hospitales.css'
 import 'animate.css';
 
@@ -14,7 +14,7 @@ export default function Hospitales({hospitales, selected}) {
 
       <div className='lista__Hospitales'>
         <p>Lista de formularios disponibles</p>
-        <Home hospitales={hospitales} selected={selected}/>
+        <FormList hospitales={hospitales} selected={selected}/>
       </div>
     </div>
   )
