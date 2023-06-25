@@ -50,11 +50,24 @@
 
 .menu__Hospital{
     background-color: transparent;
+    cursor: pointer;
+    transition: transform ease-in .1s;
 }
 
 .menu__Hospital > span{
     font-size: 2.5em;
     color: white;
+    transition: color ease-in .1s;
+
+}
+
+.menu__Hospital:hover {
+    transform: scale(.85);
+}
+
+.menu__Hospital:hover > span{
+    color: rgba(255, 255, 255, .8);
+
 }
 
 .Form-NoDisp{
@@ -100,4 +113,10 @@
         width: 55%;
 
     }
+
+    .header__hospital{
+        width: 60%;
+        padding: .8em 3em;
+    }
+
 }
