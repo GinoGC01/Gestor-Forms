@@ -1,22 +1,21 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react'
 import Hospital from './Pages/Hospital'
 import Login from './Pages/Login'
 import './App.css'
 
-
-function App() {
-  
+function App () {
   return (
     <BrowserRouter>
       <Routes>
 
-        <Route 
-        path='/' 
+        <Route
+        path='/'
         element={
         <Login/>}/>
 
-        <Route 
-        path='/:id' 
+        <Route
+        path='/:id'
         element={
         <Hospital/>}/>
 
