@@ -67,7 +67,12 @@
     "urlData": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubhtml?gid=1326289200&amp;single=true&amp;widget=true&amp;headers=false",
     "Graficos": [
       {
-        "grafico01": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubchart?oid=500137046&amp;format=interactive"
+        "id": "grafico01-prueba-01",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubchart?oid=500137046&amp;format=interactive"
+      },
+      {
+        "id": "grafico01-prueba-02",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubchart?oid=414354989&amp;format=interactive"
       }
     ]
   }

@@ -5,7 +5,6 @@ export function DatosForm ({ dataHospital }) {
   return (
     <div className='form-data'>
       <p>{dataHospital ? 'DATOS DEL FORMULARIO' : 'Datos no disponibles'}</p>
-      <small>{dataHospital && 'Los datos se actualizan cada 5 minutos'}</small>
         {dataHospital && (
           <iframe
             src={dataHospital}

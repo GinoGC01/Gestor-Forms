@@ -35,6 +35,22 @@
     margin: 1em 0;
 }
 
+.subtitle-hospital{
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+    font-style: oblique;
+}
+
+.title-graficos__estadisticas{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
 .Hospital > p > span{
     text-transform: uppercase;
 }
@@ -124,7 +140,7 @@
 
 .estadisticas-button{
     display: block;
-    margin: auto;
+    margin:10px auto;
     background-color: transparent;
     color: white;
     cursor: pointer;
