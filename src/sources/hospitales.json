@@ -3,13 +3,89 @@
     "id": "Caporaletti",
     "name": "Cacho Caporaletti",
     "nameVisible": "Hospital: Cacho Caporaletti",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8x8uvR7l8hyREipexn7R8DG75_jYfAU4T-KwKMj6-5YT5sg/viewform?embedded=true"
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8x8uvR7l8hyREipexn7R8DG75_jYfAU4T-KwKMj6-5YT5sg/viewform?embedded=true",
+    "urlData": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubhtml?gid=1637164981&amp;single=true&amp;widget=true&amp;headers=false",
+    "Graficos": [
+      {
+        "id": "grafico01",
+        "title": "Totales Cargados",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=1732495721&amp;format=interactive"
+      },
+      {
+        "id": "grafico02",
+        "title": "Nacionalidad",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=2002907952&amp;format=interactive"
+      },
+      {
+        "id": "grafico03",
+        "title": "Obra Social",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=131342134&amp;format=interactive"
+      },
+      {
+        "id": "grafico04",
+        "title": "Internación",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=2044715093&amp;format=interactive"
+      },
+      {
+        "id": "grafico05",
+        "title": "Medicación",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=1049511990&amp;format=interactive"
+      },
+      {
+        "id": "grafico06",
+        "title": "Estuidos realizados",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=1921330300&amp;format=interactive"
+      },
+      {
+        "id": "grafico07",
+        "title": "Opinión - Gestión Salud",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8VaKN7bk475HGYeYZWaW7SsyK5xtu0tABsvgLMO1jqaM8L983Mc8TufMOs4NPE4FgMmFnZdcM6FCI/pubchart?oid=1362326657&amp;format=interactive"
+      }
+    ]
   },
   {
     "id": "Angio",
     "name": "Domingo Angio",
     "nameVisible": "Hospital: Domingo Angio",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdTSr8D0wzMEnehkuyGv4YDf-aWlpTBulVzpEfDRygxzVGK_g/viewform?embedded=true"
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdTSr8D0wzMEnehkuyGv4YDf-aWlpTBulVzpEfDRygxzVGK_g/viewform?embedded=true",
+    "urlData": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubhtml?gid=1537034780&amp;single=true&amp;widget=true&amp;headers=false",
+    "Graficos": [
+      {
+        "id": "grafico01",
+        "title": "Totales Cargados",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=383886853&amp;format=interactive"
+      },
+      {
+        "id": "grafico02",
+        "title": "Nacionalidad",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=776727121&amp;format=interactive"
+      },
+      {
+        "id": "grafico03",
+        "title": "Obra Social",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=1911479129&amp;format=interactive"
+      },
+      {
+        "id": "grafico04",
+        "title": "Internación",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=165706218&amp;format=interactive"
+      },
+      {
+        "id": "grafico05",
+        "title": "Medicación",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=1127504022&amp;format=interactive"
+      },
+      {
+        "id": "grafico06",
+        "title": "Estuidos realizados",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=357307841&amp;format=interactive"
+      },
+      {
+        "id": "grafico07",
+        "title": "Opinión - Gestión Salud",
+        "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw87702ao2rV7amUYJBTJJmgrp2sQ_3EIoKfxsL5j2RbirDPt63Nf9AwQMACuOppnvlt4nKNHT_M7/pubchart?oid=1406842371&amp;format=interactive"
+      }
+    ]
   },
   {
     "id": "Buljan",
@@ -68,10 +144,12 @@
     "Graficos": [
       {
         "id": "grafico01-prueba-01",
+        "title": "Nacionalidad",
         "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubchart?oid=500137046&amp;format=interactive"
       },
       {
         "id": "grafico01-prueba-02",
+        "title": "Nacionalidad",
         "grafico": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQc41prpvKUj1-EZWpQ_BZyaJreGPyhmcaw3OT7XHTMS3OxhAbGl_CXpqZ_fmHJCQ4cF-XXWegYxj2M/pubchart?oid=414354989&amp;format=interactive"
       }
     ]

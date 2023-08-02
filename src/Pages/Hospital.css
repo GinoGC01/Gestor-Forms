@@ -1,8 +1,31 @@
+:root {
+    --background-body: #202b38;
+  --background: #161f27;
+  --background-alt: #1a242f;
+  --selection: #1c76c5;
+  --text-main: #dbdbdb;
+  --text-bright: #fff;
+  --text-muted: #a9b1ba;
+  --links: #41adff;
+  --focus: #0096bfab;
+  --border: #526980;
+  --code: #ffbe85;
+  --animation-duration: 0.1s;
+  --button-base: #0c151c;
+  --button-hover: #040a0f;
+  --scrollbar-thumb: var(--button-hover);
+  --scrollbar-thumb-hover: rgb(0, 0, 0);
+  --form-placeholder: #a9a9a9;
+  --form-text: #fff;
+  --variable: #d941e2;
+  --highlight: #efdb43;
+  }
+
 .Hospital{
     background-color: #b3d0ff;
-    background-color: #0c3069;
     background-image: linear-gradient(223deg, rgba(0, 13, 48, 0.9),rgba(78, 0, 0, 0.8))
     ,url(../../public/images/SecretariaSalud.jpg);
+    background-color: var(--background-body);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -70,6 +93,7 @@
     align-items: center;
     gap: 1em;
     width: 100%;
+    height: 100vh;
     margin-top: 30px;
     color: white;
 }
@@ -155,6 +179,26 @@
     background-color: #051b3d98;
 }
 
+.grafico-title{
+    color: rgb(231, 231, 231);
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: start;
+    padding-left: 25px;
+    width: 100%;
+    display: block;
+    transform: translateY(10px);
+}
+
+.graficos-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.grafico-conteiner{
+    border-radius: 20px;
+}
 @media screen and (min-width:1100px){
 
     .Hospital > p{

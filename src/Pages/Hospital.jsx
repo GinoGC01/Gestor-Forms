@@ -1,22 +1,26 @@
-import React, { useState, useContext } from 'react'
-import { HospitalesContext } from '../Context/HospitalesContext'
-import { Link, useParams } from 'react-router-dom'
+import React, {useState, useContext} from 'react'
+import {HospitalesContext} from '../Context/HospitalesContext'
+import {Link, useParams} from 'react-router-dom'
 import NavHospitales from '../components/NavHospitales'
 import './Hospital.css'
-import { DatosForm } from '../components/DatosForm'
+import {DatosForm} from '../components/DatosForm'
 import HeaderHospital from '../components/HeaderHospital'
 
-function GraficosRecorridos ({ graficos }) {
-  return graficos.map((grafico) => {
+function GraficosRecorridos({graficos}) {
+  return graficos?.map((grafico) => {
     return (
       <li key={grafico.id}>
+        <strong className='grafico-title'>{grafico.title}</strong>
         <iframe
           src={grafico.grafico}
+          className='grafico-conteiner'
           style={{
-            width: '325px',
-            height: '450px',
+            width: '345px',
+            height: '285px',
             display: 'block',
-            margin: 'auto'
+            margin: '20px auto',
+            boxShadow: '0px 0px 10px rgba(0, 0, 0, .5)',
+            backdropFilter: 'blur(15px)'
           }}
           seamless
         ></iframe>
@@ -25,19 +29,25 @@ function GraficosRecorridos ({ graficos }) {
   })
 }
 
-function Estadísticas ({ dataHospital, graficosOn, graficos }) {
+function Estadísticas({dataHospital, graficosOn, graficos, handleGraficos}) {
   return (
-    <section id="estadisticas">
-      <h3 className='title-graficos__estadisticas'>Gráficos</h3>
-    <section id="graficos">
-      <ul>{graficosOn && <GraficosRecorridos graficos={graficos} />}</ul>
+    <section id='estadisticas'>
+      {graficos && (
+        <button onClick={handleGraficos} className='estadisticas-button'>
+          {graficosOn ? 'Ocultar gráficos' : 'Ver gráficos'}
+        </button>
+      )}
+      <section id='graficos'>
+        <ul className='graficos-container'>
+          {graficosOn && <GraficosRecorridos graficos={graficos} />}
+        </ul>
+      </section>
+      <DatosForm dataHospital={dataHospital} />
     </section>
-    <DatosForm dataHospital={dataHospital} />
-  </section>
   )
 }
 
-export default function Hospital () {
+export default function Hospital() {
   const [data, setData] = useState(false)
   const [graficosOn, setGraficosOn] = useState(false)
 
@@ -67,7 +77,7 @@ export default function Hospital () {
 
   if (id === isSelected) {
     return (
-      <section className="Hospital">
+      <section className='Hospital'>
         <HeaderHospital handleNav={handleNav} hospitalesNav={hospitalesNav} />
         <NavHospitales
           hospitalesNav={hospitalesNav}
@@ -79,33 +89,33 @@ export default function Hospital () {
             ? `Estadísticas Seleccionadas: ${isSelected}`
             : `Formulario Seleccionado: ${isSelected}`}
         </p>
-        <h3 className='subtitle-hospital'>{data && 'Los datos se actualizan cada 5 minutos'}</h3>
-        <button onClick={handleData} className="estadisticas-button">
-          {data ? 'ocultar estadísticas' : 'ver estadísticas'}
+        <h3 className='subtitle-hospital'>
+          {data && graficos && 'Los datos se actualizan cada 5 minutos'}
+        </h3>
+        <button onClick={handleData} className='estadisticas-button'>
+          {data ? 'ver formulario' : 'ver estadísticas'}
         </button>
-        {data && (
-          <button onClick={handleGraficos} className="estadisticas-button">
-            Generar gráficos
-          </button>
-        )}
-        {data
-          ? (
-            <Estadísticas dataHospital={dataHospital} graficosOn={graficosOn} graficos={graficos}/>
-            )
-          : (
+        {data ? (
+          <Estadísticas
+            dataHospital={dataHospital}
+            graficosOn={graficosOn}
+            graficos={graficos}
+            handleGraficos={handleGraficos}
+          />
+        ) : (
           <>
-            <iframe src={urlHospital} className="form">
+            <iframe src={urlHospital} className='form'>
               Cargando…
             </iframe>
           </>
-            )}
+        )}
       </section>
     )
   } else {
     return (
-      <div className="Form-NoDisp">
-        <strong className="text__Form-NoDisp">Formulario no disponible</strong>
-        <Link className="text-btn__Form-NoDisp" to="/">
+      <div className='Form-NoDisp'>
+        <strong className='text__Form-NoDisp'>Formulario no disponible</strong>
+        <Link className='text-btn__Form-NoDisp' to='/'>
           Volver
         </Link>
       </div>
