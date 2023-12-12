@@ -58,5 +58,11 @@
         "name": "Encuesta - Secretaria de salud - José C. Paz",
         "nameVisible": "Encuesta - Secretaria de salud",
         "url":"https://docs.google.com/forms/d/e/1FAIpQLSfFtGePZ09c-vw7to7tnEPsOF4z09DCt36A2-F2Nwi0A8W5sA/viewform?usp=sf_link"
+    },
+    {
+        "id":"Encuesta-Ginecologia",
+        "name": "Encuesta - Ginecologia",
+        "nameVisible": "Encuesta - Ginecología",
+        "url":"https://docs.google.com/forms/d/e/1FAIpQLScM7JHLkRwDXZGzWwocaXLS2OIElHgJLzFg8b7g-rq0f88Rew/viewform?usp=sf_link"
     }
 ]
